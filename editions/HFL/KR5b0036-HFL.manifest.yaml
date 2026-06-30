@@ -1,0 +1,53 @@
+canonical_identifier: bkk:krp/KR5b0036/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5b0036/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上洞玄靈寶赤書玉訣妙經
+  date: '2015-08-28 23:47:49.197141'
+  source:
+    repository: kanripo
+    path: KR5b0036
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0036_000-HFL.yaml, hash: 'sha256:495e79ad437409e552de617898a2b854f38055bd5cbdfb7a4a777a3697914e0d'}
+  - {seq: 1, filename: KR5b0036_001-HFL.yaml, hash: 'sha256:70aedacc463058e9c34148ab78a77790d29428257f7e7ef6d0aeae578a380245'}
+  - {seq: 2, filename: KR5b0036_002-HFL.yaml, hash: 'sha256:ff4704c17fd181fffe45ea69aef837676be6b7735828b2c05c93fd5f48e7b59e'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5b0036_001-HFL.markers.yaml, hash: 'sha256:f3a673cc30883369b01dc0446be12b52e6edb08ca3564c43d24f2f15f3cb0acd'}
+  - {seq: 2, role: markers, filename: assets/KR5b0036_002-HFL.markers.yaml, hash: 'sha256:e82a2449a488ce6290e5d7b2dad698325f74574f95689a3883b77f44084d0cda'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR5b0036_HFL_001-001a
+    span:
+    - body
+    - 0
+    - 7779
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR5b0036_HFL_002-001a
+    span:
+    - body
+    - 0
+    - 7895
+  label: juan 002
+  type: section
+  level: 1
+hash: sha256:2a35d96499822cbfcc2767cb3ffe2d241387b73d022cbdaab31f11980f2d8ffb
